@@ -14,7 +14,7 @@ OBJ_FILES = $(patsubst $(SRC_DIR)/%.cpp,$(BUILD_DIR)/%.o,$(SRC_FILES))
 
 TEST_FILES = $(wildcard $(TEST_DIR)/*.cpp)
 TEST_OBJ_FILES = $(patsubst $(TEST_DIR)/%.cpp,$(BUILD_DIR)/%.o,$(TEST_FILES))
-TEST_EXE = build/tests/tests.out
+TEST_EXE = bin/tests.out
 
 all: test
 
