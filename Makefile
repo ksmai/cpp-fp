@@ -34,4 +34,4 @@ $(BUILD_DIR)/%.o: $(SRC_DIR)/%.cpp
 	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -c -o $@ $<
 
 clean:
-	$(RM) $(CATCH2_OBJ) $(OBJ_FILES) $(TEST_OBJ_FILES)
+	$(RM) $(CATCH2_OBJ) $(OBJ_FILES) $(TEST_OBJ_FILES) $(TEST_EXE)
